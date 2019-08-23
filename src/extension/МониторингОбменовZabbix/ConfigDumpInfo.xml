@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
+	<ConfigVersions>
+		<Metadata name="Configuration.МониторингОбменовZabbix" id="3599b4f6-7ded-44bb-ae57-708f02f7c21a" configVersion="f9283bf060ad0c8741c46c1c206594637c1a997b"/>
+		<Metadata name="DataProcessor.zabb_МониторингОчередиСообщенийВПланеОбмена" id="67dccad0-c94d-4b0e-bd9a-da65096598bb" configVersion="722d8d309e94c2e429973dac010f943c177dbe09"/>
+		<Metadata name="DataProcessor.zabb_МониторингОчередиСообщенийВПланеОбмена.Form.Форма" id="39f59ff7-9f8d-4125-b518-fd9119b2711d" configVersion="cf1de020ebf41e03c49e2969df7d23534e79dc83"/>
+		<Metadata name="DataProcessor.zabb_МониторингОчередиСообщенийВПланеОбмена.Form.Форма.Form" id="39f59ff7-9f8d-4125-b518-fd9119b2711d.0" configVersion="76549f80ee6e3324a66426d1a7279995b87b3257"/>
+		<Metadata name="DataProcessor.zabb_МониторингОчередиСообщенийВПланеОбмена.ObjectModule" id="67dccad0-c94d-4b0e-bd9a-da65096598bb.0" configVersion="a295a029d08c59ae002c227690f24e8d9ce0a37e"/>
+		<Metadata name="HTTPService.zabb_ExchangeMonitoring" id="7659e5d3-4ac2-4abc-846f-37315ece8412" configVersion="21116fd218caa4d3e4f7a396866019a34c5d57ec">
+			<Metadata name="HTTPService.zabb_ExchangeMonitoring.URLTemplate.exchangeV1" id="637c6dae-549f-4c74-876a-f434672c8bfe"/>
+			<Metadata name="HTTPService.zabb_ExchangeMonitoring.URLTemplate.exchangeV1.Method.MessageCount" id="d701e82c-eaa2-417e-b6c6-89196e3ed6e2"/>
+		</Metadata>
+		<Metadata name="HTTPService.zabb_ExchangeMonitoring.Module" id="7659e5d3-4ac2-4abc-846f-37315ece8412.0" configVersion="b9561f67a670a68d293bcb5a409f35dab6aec5f5"/>
+		<Metadata name="Language.Русский" id="32032532-a61c-4ad4-8257-8fc38c51056e" configVersion="25ed7c99d1ac290d804394ec8b76583b993af479"/>
+		<Metadata name="Role.zabb_HTTPAgent" id="ff19a335-4aac-41f8-980e-6f2f050fa4ba" configVersion="89b988144f04f2852b73140a1559b3d179796a9b"/>
+		<Metadata name="Role.zabb_HTTPAgent.Rights" id="ff19a335-4aac-41f8-980e-6f2f050fa4ba.0" configVersion="eb968569b1149fb89f65f4f6cf530a6d8dc059ec"/>
+		<Metadata name="Subsystem.zabb_МониторингПлановОбмена" id="5e163140-413c-4889-8437-56a8affedd74" configVersion="22690e881b26e39b3e6f5a5a7b0ff2f713b2f367"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

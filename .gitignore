@@ -1,0 +1,10 @@
+bak
+sump/
+sump/**
+debug
+debug/
+debug/**
+*.cfe
+*.cf
+*.epf
+*.epr
