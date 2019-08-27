@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКомандаПрочитатьНастройки" id="9">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаПрочитатьНастройки</CommandName>
+				<ExtendedTooltip name="ФормаКомандаПрочитатьНастройкиРасширеннаяПодсказка" id="10"/>
+			</Button>
+			<Button name="ФормаКомандаСохранитьНастройки" id="11">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.КомандаСохранитьНастройки</CommandName>
+				<ExtendedTooltip name="ФормаКомандаСохранитьНастройкиРасширеннаяПодсказка" id="12"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<Page name="ГруппаZabbixAPI" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Zabbix API</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа zabbix API</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаZabbixAPIРасширеннаяПодсказка" id="97"/>
+					<ChildItems>
+						<InputField name="Сервер" id="68">
+							<DataPath>Сервер</DataPath>
+							<ContextMenu name="СерверКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="Порт" id="71">
+							<DataPath>Порт</DataPath>
+							<ContextMenu name="ПортКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ПортРасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<InputField name="Сервис" id="74">
+							<DataPath>Сервис</DataPath>
+							<ContextMenu name="СервисКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="СервисРасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="HostID" id="88">
+							<DataPath>HostID</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ID узла в структуре данных Zabbix, на котором собираются данные о событиях мониторинга обменов.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowAuto</ToolTipRepresentation>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧГ=</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="HostIDКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="HostIDРасширеннаяПодсказка" id="90"/>
+						</InputField>
+						<InputField name="Login" id="77">
+							<DataPath>Login</DataPath>
+							<ContextMenu name="LoginКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="LoginРасширеннаяПодсказка" id="79"/>
+						</InputField>
+						<InputField name="Password" id="80">
+							<DataPath>Password</DataPath>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="PasswordКонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="PasswordРасширеннаяПодсказка" id="82"/>
+						</InputField>
+						<InputField name="Таймаут" id="83">
+							<DataPath>Таймаут</DataPath>
+							<ContextMenu name="ТаймаутКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="ТаймаутРасширеннаяПодсказка" id="85"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаZabbixItem" id="98">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Zabbix item</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа zabbix item</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаZabbixItemРасширеннаяПодсказка" id="99"/>
+					<ChildItems>
+						<InputField name="UrlСервисаМониторинга1С" id="91">
+							<DataPath>UrlСервисаМониторинга1С</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>URL сервиса мониторинга 1С</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="UrlСервисаМониторинга1СКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="UrlСервисаМониторинга1СРасширеннаяПодсказка" id="93"/>
+						</InputField>
+						<InputField name="Логин1С" id="100">
+							<DataPath>Логин1С</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Логин мониторинга 1С</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Логин1СКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="Логин1СРасширеннаяПодсказка" id="102"/>
+						</InputField>
+						<InputField name="Пароль1С" id="103">
+							<DataPath>Пароль1С</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пароль мониторинга 1С</v8:content>
+								</v8:item>
+							</Title>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="Пароль1СКонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="Пароль1СРасширеннаяПодсказка" id="105"/>
+						</InputField>
+						<InputField name="Таймаут1С" id="106">
+							<DataPath>Таймаут1С</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Таймаут ответа мониторинга, сек</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Таймаут1СКонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="Таймаут1СРасширеннаяПодсказка" id="108"/>
+						</InputField>
+						<InputField name="ПериодОпроса1С" id="109">
+							<DataPath>ПериодОпроса1С</DataPath>
+							<ContextMenu name="ПериодОпроса1СКонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="ПериодОпроса1СРасширеннаяПодсказка" id="111"/>
+						</InputField>
+						<InputField name="ПорогСрабатывания" id="112">
+							<DataPath>ПорогСрабатывания</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество не отправленных сообщений, при котором Zabbix формирует alert.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ПорогСрабатыванияКонтекстноеМеню" id="113"/>
+							<ExtendedTooltip name="ПорогСрабатыванияРасширеннаяПодсказка" id="114"/>
+						</InputField>
+						<InputField name="ПорогСрабатыванияДО" id="115">
+							<DataPath>ПорогСрабатыванияДО</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Количество не отправленных в документооборот сообщений, при котором Zabbix формирует alert.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<ContextMenu name="ПорогСрабатыванияДОКонтекстноеМеню" id="116"/>
+							<ExtendedTooltip name="ПорогСрабатыванияДОРасширеннаяПодсказка" id="117"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МониторингОчередиСообщенийВПланеОбмена</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Сервер" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Порт" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>4</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сервис" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сервис</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Login" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Login</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Password" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Password</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Таймаут" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут, сек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="HostID" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Host ID</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="UrlСервисаМониторинга1С" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Url сервиса мониторинга1С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин1С" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин1 С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль1С" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль1 С</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Таймаут1С" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таймаут 1С, сек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПериодОпроса1С" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период опроса 1С, сек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПорогСрабатывания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порог срабатывания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПорогСрабатыванияДО" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порог срабатывания ДО</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаМониторинг" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мониторинг</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда мониторинг</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаМониторинг</Action>
+		</Command>
+		<Command name="КомандаПрочитатьНастройки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда прочитать настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаПрочитатьНастройки</Action>
+		</Command>
+		<Command name="КомандаСохранитьНастройки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда сохранить настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаСохранитьНастройки</Action>
+		</Command>
+		<Command name="КомандаТестАвторизации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест авторизации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда тест авторизации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаТестАвторизации</Action>
+		</Command>
+	</Commands>
+</Form>

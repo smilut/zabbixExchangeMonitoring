@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
+	<ConfigVersions>
+		<Metadata name="CommonModule.МониторингОбмена" id="f52ecd2f-ce77-460e-b931-535e2596676c" configVersion="c9259c218ce360478bf772b235a54fea00000000"/>
+		<Metadata name="CommonModule.МониторингОбмена.Module" id="f52ecd2f-ce77-460e-b931-535e2596676c.0" configVersion="b770bb1631963440b822e5c3392e591900000000"/>
+		<Metadata name="Configuration.Конфигурация" id="bbc893f3-9c43-402a-a452-d60d827f1801" configVersion="843deb7f99449c488ef1b7003d1f616d00000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена" id="ba9cdea8-eb51-4c8c-99c6-83dc34dcd49b" configVersion="e63c23f7b0de8c4688597cff2fb5519500000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.Form.Форма" id="6f5254ea-5d4b-4883-a623-aedbbd65334d" configVersion="f3cbea9c47e37f4ca8f86f6a9d50be8100000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.Form.Форма.Form" id="6f5254ea-5d4b-4883-a623-aedbbd65334d.0" configVersion="e5da3f39ef837a48bc60c3f68e7dce0f00000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.Form.Форма.Help" id="6f5254ea-5d4b-4883-a623-aedbbd65334d.1" configVersion="67ac10db4075334390accfb111076c6300000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.Help" id="ba9cdea8-eb51-4c8c-99c6-83dc34dcd49b.1" configVersion="9e7a5dc1493e5c4eacb61b957ebc130300000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.ManagerModule" id="ba9cdea8-eb51-4c8c-99c6-83dc34dcd49b.2" configVersion="6b366c364a8dc04994ed5727c8f4ffbf00000000"/>
+		<Metadata name="DataProcessor.МониторингОчередиСообщенийВПланеОбмена.ObjectModule" id="ba9cdea8-eb51-4c8c-99c6-83dc34dcd49b.0" configVersion="a213c3b5aeac7d4490d8931f73c0466a00000000"/>
+		<Metadata name="HTTPService.ExchangeMonitoring" id="0af83a75-8e4d-4b63-b6fa-10978eb48d71" configVersion="6469c60368e0e9419a210a84355cf22900000000">
+			<Metadata name="HTTPService.ExchangeMonitoring.URLTemplate.exchangeV1.Method.MessageCount" id="85164d05-0a99-4487-b789-7523239645f4"/>
+			<Metadata name="HTTPService.ExchangeMonitoring.URLTemplate.exchangeV1" id="e9c75c04-a075-4a4d-a761-0706bb3dff95"/>
+		</Metadata>
+		<Metadata name="HTTPService.ExchangeMonitoring.Module" id="0af83a75-8e4d-4b63-b6fa-10978eb48d71.0" configVersion="6e7ff4d95d6d5b4bad16cc33608c486e00000000"/>
+		<Metadata name="Language.Русский" id="d80c55ea-8d5c-48c1-9ef3-19a4e09cc09c" configVersion="f03dcaa7ebe2b04c818d3ea9cc29b86600000000"/>
+		<Metadata name="ScheduledJob.ФормированиеЭлементовДанныхZabbix" id="ae7d1c93-b446-4949-8723-8047be2f760c" configVersion="4bf40fac6d4ff74b85c1b89cfd67302b00000000"/>
+		<Metadata name="ScheduledJob.ФормированиеЭлементовДанныхZabbix.Schedule" id="ae7d1c93-b446-4949-8723-8047be2f760c.0" configVersion="8cf0ea44d8b10e4bbda423c8a7bbec5100000000"/>
+		<Metadata name="Subsystem.МониторингОбмена" id="72087d27-4cbc-46bd-9ae9-0cfbf3390c0d" configVersion="87ea68503baf854f9ba05db5dbfd720000000000"/>
+		<Metadata name="Subsystem.МониторингОбмена.CommandInterface" id="72087d27-4cbc-46bd-9ae9-0cfbf3390c0d.1" configVersion="bf33fbc7cbf68347a9b564fdd20cd95500000000"/>
+		<Metadata name="Subsystem.МониторингОбмена.Help" id="72087d27-4cbc-46bd-9ae9-0cfbf3390c0d.0" configVersion="896f45433b191d44b2042f09a03d4bd200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
